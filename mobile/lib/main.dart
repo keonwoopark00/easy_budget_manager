@@ -4,6 +4,9 @@ void main() {
   runApp(const BudgetManager());
 }
 
+// TODO(kpark):
+// 1. Firebase connection
+// 2. Account creation -> social login..
 class BudgetManager extends StatelessWidget {
   const BudgetManager({super.key});
 
