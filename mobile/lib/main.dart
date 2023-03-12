@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const BudgetManager());
+  runApp(const MainApp());
 }
 
 // TODO(kpark):
 // 1. Firebase connection
 // 2. Account creation -> social login..
-class BudgetManager extends StatelessWidget {
-  const BudgetManager({super.key});
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
 
   // This widget is the root of your application.
   @override
